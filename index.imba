@@ -9,10 +9,6 @@ var counter = 0
 
 tag hello-world
 	### css scoped
-	p {
-		color: red;
-	}
-	
 	.day {
 		font-size: 2.0rem;
 		display: grid;
@@ -55,6 +51,10 @@ tag hello-world
 
 			<header>
 				<h1> "Japanese Weekdays"
+				<p>
+					"This static site is for myself so I can practice remembering the weekdays in Japanese."
+						<br>
+					"The emojis are just mnemonics I am using 😉"
 			<div.day>
 				<ruby> "日曜日"
 					<rp> "("
