@@ -100,7 +100,7 @@ tag hello-world
 			<footer>
 				<span>
 					"Built by "
-					<a href="https://github.com/scanf"> "scanf"
+					<a href="https://github.com/scanf/Japanese-Weekdays"> "scanf"
 					" with "
 					<a href="https://github.com/imba/imba"> "Imba v2.0.0-alpha.9"
 
