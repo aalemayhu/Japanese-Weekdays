@@ -1,4 +1,6 @@
-# Imba v2 (alpha) Hello World Example
+# Japanese Weekdays
+
+List out the Japanese weekdays using Imba `v2.0.0-alpha.9`.
 
 Get started by running the following commands
 
