@@ -5,8 +5,6 @@ body {
 }
 ###
 
-var counter = 0
-
 tag hello-world
 	### css scoped
 	.day {
@@ -42,8 +40,6 @@ tag hello-world
 	}
 	
 	###
-	def incr
-		counter++
 
 	def render
 		<self.hello-world>
