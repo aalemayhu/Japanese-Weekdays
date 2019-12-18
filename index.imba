@@ -43,7 +43,6 @@ tag hello-world
 
 	def render
 		<self.hello-world>
-			<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho|Source+Sans+Pro&display=swap" rel="stylesheet">
 
 			<header>
 				<h1> "Japanese Weekdays"
