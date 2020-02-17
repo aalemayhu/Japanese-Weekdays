@@ -97,7 +97,7 @@ tag hello-world
 					"Built by "
 					<a href="https://github.com/scanf/Japanese-Weekdays"> "scanf"
 					" with "
-					<a href="https://github.com/imba/imba"> "Imba v2.0.0-alpha.9"
+					<a href="https://github.com/imba/imba"> "Imba v2.0.0-alpha.28"
 
 
 imba.mount <hello-world>
