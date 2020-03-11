@@ -111,3 +111,5 @@ dist
 .history
 
 *.map
+# Local Netlify folder
+.netlify

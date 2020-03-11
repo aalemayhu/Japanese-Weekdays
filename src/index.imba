@@ -32,7 +32,7 @@ tag hello-world
 	}
 
 	footer {
-		padding-bottom: 1rem;
+		padding: 1rem;
 	}
 	footer a {
 		text-decoration: none;
@@ -40,59 +40,59 @@ tag hello-world
 	}
 	
 	###
-
 	def render
 		<self.hello-world>
-
-			<header>
-				<h1> "Japanese Weekdays"
-				<p>
+			<header .header>
+				<h1 .title> "Japanese Weekdays"
+				<p .subtitle>
 					"This static site is for myself so I can practice remembering the weekdays in Japanese."
 						<br>
 					"The emojis are just mnemonics I am using 😉"
-			<div.day>
-				<ruby> "日曜日"
-					<rp> "("
-					<rt> "にちようび"
-					<rp> ")"
-				"🌞 Sunday"
-			<div.day>
-				<ruby> "月曜日"
-					<rp> "("
-					<rt> "げつようび"
-					<rp> ")"
-				"🌚 Monday"
-			<div.day>
-				<ruby> "火曜日"
-					<rp> "("
-					<rt> "かようび"
-					<rp> ")"
-				"🔥 Tuesday"
-			<div.day>
-				<ruby> "水曜日"
-					<rp> "("
-					<rt> "すいようび"
-					<rp> ")"
-				"💧 Wednesday"
-			<div.day>
-				<ruby> "木曜日"
-					<rp> "("
-					<rt> "もくようび"
-					<rp> ")"
-				"🌲 Thursday"
-			<div.day>
-				<ruby> "金曜日"
-					<rp> "("
-					<rt> "きにょうび"
-					<rp> ")"
-				"🥈 Friday"
-			<div.day>
-				<ruby> "土曜日"
-					<rp> "("
-					<rt> "どようび"
-					<rp> ")"
-				"🚜 Saturday"
-			<footer>
+			<section .section>
+				<div .container>
+					<div.day>
+						<ruby> "日曜日"
+							<rp> "("
+							<rt> "にちようび"
+							<rp> ")"
+						"🌞 Sunday"
+					<div.day>
+						<ruby> "月曜日"
+							<rp> "("
+							<rt> "げつようび"
+							<rp> ")"
+						"🌚 Monday"
+					<div.day>
+						<ruby> "火曜日"
+							<rp> "("
+							<rt> "かようび"
+							<rp> ")"
+						"🔥 Tuesday"
+					<div.day>
+						<ruby> "水曜日"
+							<rp> "("
+							<rt> "すいようび"
+							<rp> ")"
+						"💧 Wednesday"
+					<div.day>
+						<ruby> "木曜日"
+							<rp> "("
+							<rt> "もくようび"
+							<rp> ")"
+						"🌲 Thursday"
+					<div.day>
+						<ruby> "金曜日"
+							<rp> "("
+							<rt> "きにょうび"
+							<rp> ")"
+						"🥈 Friday"
+					<div.day>
+						<ruby> "土曜日"
+							<rp> "("
+							<rt> "どようび"
+							<rp> ")"
+						"🚜 Saturday"
+			<footer .footer>
 				<span>
 					"Built by "
 					<a href="https://github.com/scanf/Japanese-Weekdays"> "scanf"
