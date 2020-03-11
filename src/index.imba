@@ -5,7 +5,7 @@ body {
 }
 ###
 
-tag hello-world
+tag japanese-weekdays
 	### css scoped
 	.day {
 		font-size: 2.0rem;
@@ -20,7 +20,7 @@ tag hello-world
 	}
 
 	
-	.hello-world {
+	.japanese-weekdays {
 		display: grid;
 		justify-content: center;
 		padding: 1rem;
@@ -41,7 +41,7 @@ tag hello-world
 	
 	###
 	def render
-		<self.hello-world>
+		<self.japanese-weekdays>
 			<header .header>
 				<h1 .title> "Japanese Weekdays"
 				<p .subtitle>
@@ -97,7 +97,7 @@ tag hello-world
 					"Built by "
 					<a href="https://github.com/scanf/Japanese-Weekdays"> "scanf"
 					" with "
-					<a href="https://github.com/imba/imba"> "Imba v2.0.0-alpha.28"
+					<a href="https://github.com/imba/imba"> "Imba 2.x"
 
 
-imba.mount <hello-world>
+imba.mount <japanese-weekdays>
