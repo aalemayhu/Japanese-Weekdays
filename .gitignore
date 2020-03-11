@@ -107,3 +107,7 @@ dist
 *.swp
 
 *.js
+
+.history
+
+*.map

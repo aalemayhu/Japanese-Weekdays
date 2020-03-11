@@ -1,0 +1,14 @@
+{
+	"entries": [{
+		"input": "./src/index.imba",
+		"output": {
+			"file": "./public/index.imba.js",
+			"format": "esm",
+        	"name": "bundle",
+        	"sourcemap": true
+		}
+	}],
+  "serve": {
+    "port": "3000"
+  }
+}
