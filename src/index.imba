@@ -83,7 +83,7 @@ tag hello-world
 					<div.day>
 						<ruby> "金曜日"
 							<rp> "("
-							<rt> "きにょうび"
+							<rt> "きんようび"
 							<rp> ")"
 						"🥈 Friday"
 					<div.day>
